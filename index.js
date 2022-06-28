@@ -102,6 +102,8 @@ const handleNum = () => {
   let code = search_inp.value;
   console.log(code);
   console.log(count);
+  num_inp.value = null;
+  search_inp.value = null;
 }
 
 submit.addEventListener('click', handleNum)
